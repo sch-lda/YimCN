@@ -53,8 +53,8 @@ namespace big
 	};
 
 	start_script<20> g_start_tutorial("tutorial", "送进新手教程", "显示新手教程的不可跳过的过场动画", 0);
-	start_script<193> g_start_golf("golf", "送到高尔夫", "Starts golf", 0);
-	start_script<196> g_start_flight_school("flightschool", "送到飞行学校", "Teleports player to the airport and starts flight school", 0);
+	start_script<193> g_start_golf("golf", "送到高尔夫", "开始高尔夫运动", 0);
+	start_script<196> g_start_flight_school("flightschool", "送到飞行学校", "传送玩家到机场并触发飞行学校活动", 0);
 	start_script<192> g_start_darts("darts", "开始飞镖游戏", "Starts darts in a Sandy Shores bar", 0);
 	start_script<211> g_start_badlands("badlands", "Start Badlands Revenge II", "启动全屏电子游戏 Badlands Revenge II", 0);
 	start_script<216> g_start_space_monkey("spacemonkey", "开始太空猴3游戏", "启动全屏电子游戏 Space Monkey 3", 0);
