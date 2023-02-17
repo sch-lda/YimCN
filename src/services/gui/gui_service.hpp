@@ -96,13 +96,7 @@ namespace big
 				{ tabs::PLAYER_DATABASE, { "玩家数据库", view::player_database }},
 				{ tabs::SESSION_BROWSER, { "战局浏览器", view::session_browser }},
 			}}},
-			{tabs::NETWORK, { "Network", nullptr, {
-				{ tabs::SPOOFING, { "Spoofing", view::spoofing }},
-				{ tabs::SESSION, { "Session", view::session }},
-				{ tabs::MISSIONS, { "Missions", view::missions }},
-				{ tabs::PLAYER_DATABASE, { "Player Database", view::player_database }},
-				{ tabs::SESSION_BROWSER, { "Session Browser", view::session_browser }},
-			}}},
+
 			{tabs::SETTINGS, { "设置", view::settings, {
 				{ tabs::STAT_EDITOR, { "Stat 编辑器", view::stat_editor}},
 				{ tabs::CONTEXT_MENU_SETTINGS, { "X键菜单", view::context_menu_settings}},
