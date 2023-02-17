@@ -14,5 +14,5 @@ namespace big
 		}
 	};
 
-	teleport_to_waypoint g_teleport_to_waypoint("waypointtp", "传送到导航点", "Teleports you to your waypoint", 0);
+	teleport_to_waypoint g_teleport_to_waypoint("waypointtp", "传送到导航点", "传送自己到地图上手动标记的导航点", 0);
 }

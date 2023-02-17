@@ -27,5 +27,5 @@ namespace big
 		}
 	};
 
-	rapid_fire g_rapid_fire("rapidfire", "快速开火", "Makes your weapon fire insanely fast", g.weapons.rapid_fire);
+	rapid_fire g_rapid_fire("rapidfire", "快速开火", "无间隔开火", g.weapons.rapid_fire);
 }

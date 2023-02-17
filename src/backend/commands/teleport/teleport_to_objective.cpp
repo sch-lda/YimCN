@@ -14,5 +14,5 @@ namespace big
 		}
 	};
 
-	teleport_to_objective g_teleport_to_objective("objectivetp", "传送到目标点", "Teleports you to your mission objective", 0);
+	teleport_to_objective g_teleport_to_objective("objectivetp", "传送到目标点", "传送自己到任务点", 0);
 }

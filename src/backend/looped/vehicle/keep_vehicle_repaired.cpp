@@ -15,5 +15,5 @@ namespace big
 		}
 	};
 
-	keep_vehicle_repaired g_keep_vehicle_repaired("keepfixed", "保持修复", "Keeps your vehicle free of wear and tear", g.vehicle.keep_vehicle_repaired);
+	keep_vehicle_repaired g_keep_vehicle_repaired("keepfixed", "保持修复", "持续修复载具", g.vehicle.keep_vehicle_repaired);
 }

@@ -21,5 +21,5 @@ namespace big
 		}
 	};
 
-	block_homing g_block_homing("blockhoming", "不会被飞弹锁定", "Prevents homing missiles from locking on to your vehicle", g.vehicle.block_homing);
+	block_homing g_block_homing("blockhoming", "不会被飞弹锁定", "追踪导弹将无法锁定你的载具", g.vehicle.block_homing);
 }

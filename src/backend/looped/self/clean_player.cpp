@@ -14,5 +14,5 @@ namespace big
 		}
 	};
 
-	clean_player_looped g_clean_player_looped("cleanloop", "保持清洁", "Prevents wetness and decals from being applied on you", g.self.clean_player);
+	clean_player_looped g_clean_player_looped("cleanloop", "保持清洁", "让自己始终没有弹孔和水渍", g.self.clean_player);
 }

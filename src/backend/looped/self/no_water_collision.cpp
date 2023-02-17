@@ -22,5 +22,5 @@ namespace big
 		}
 	};
 
-	no_water_collision g_no_water_collision("walkunder", "水下行走", "Allows you to walk and shoot underwater", g.self.no_water_collision);
+	no_water_collision g_no_water_collision("walkunder", "水下行走", "假设不存在水，同时允许水下射击", g.self.no_water_collision);
 }

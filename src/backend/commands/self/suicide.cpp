@@ -13,5 +13,5 @@ namespace big
 		}
 	};
 
-	suicide g_suicide("suicide", "自杀", "Kills you", 0);
+	suicide g_suicide("suicide", "自杀", "杀死自己", 0);
 }

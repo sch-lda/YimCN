@@ -46,5 +46,5 @@ namespace big
 		}
 	};
 
-	send_to_interior g_send_to_interior("interiortp", "送到室内", "Teleports the player to the specified interior index", 1);
+	send_to_interior g_send_to_interior("interiortp", "送到室内", "将玩家送到特定的室内", 1);
 }

@@ -32,7 +32,7 @@ namespace big
 		{
 			current_destination = AutoDriveDestination::STOPPED;
 			changing_driving_styles = false;
-			g_notification_service->push_warning("警告", "请先进入载具.");
+			g_notification_service->push_warning("提示", "请先进入载具.");
 		}
 		else if (
 			current_driving_flag != driving_style_flags[g.vehicle.auto_drive_style] ||

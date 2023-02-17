@@ -14,5 +14,5 @@ namespace big
 		}
 	};
 
-	heal g_heal("heal", "瞬间治疗", "Restores full health and armor", 0);
+	heal g_heal("heal", "瞬间治疗", "补满生命值和护甲", 0);
 }

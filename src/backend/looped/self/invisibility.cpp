@@ -29,6 +29,6 @@ namespace big
 		}
 	};
 
-	invisibility g_invisibility("invis", "隐身", "Makes you invisible", g.self.invisibility);
-	bool_command g_local_visibility("localvis", "本地可见", "Makes you visible to yourself, but other players would still not be able to see you", g.self.local_visibility);
+	invisibility g_invisibility("invis", "隐身", "让自己不可见", g.self.invisibility);
+	bool_command g_local_visibility("localvis", "本地可见", "仅对其他玩家隐身", g.self.local_visibility);
 }

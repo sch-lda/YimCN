@@ -19,5 +19,5 @@ namespace big
 		}
 	};
 
-	teleport_to_last_vehicle g_teleport_to_last_vehicle("lastvehtp", "传送到上次驾驶的载具", "Teleports you into your last driven vehicle", 0);
+	teleport_to_last_vehicle g_teleport_to_last_vehicle("lastvehtp", "传送到上次驾驶的载具", "传送到你上次驾驶的载具", 0);
 }

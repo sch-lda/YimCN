@@ -20,5 +20,5 @@ namespace big
 		}
 	};
 
-	off_radar g_off_radar("otr", "雷达隐匿", "Hides your blip from other players", g.self.off_radar);
+	off_radar g_off_radar("otr", "雷达隐匿", "你的光点将从其他玩家的地图上消失", g.self.off_radar);
 }

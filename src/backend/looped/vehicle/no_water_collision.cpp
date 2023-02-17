@@ -20,5 +20,5 @@ namespace big
 		}
 	};
 
-	no_vehicle_water_collision g_no_vehicle_water_collision("driveunder", "水下行驶", "Allows you to drive underwater", g.vehicle.no_water_collision);
+	no_vehicle_water_collision g_no_vehicle_water_collision("driveunder", "水下行驶", "假设不存在水", g.vehicle.no_water_collision);
 }

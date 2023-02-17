@@ -20,5 +20,5 @@ namespace big
 		}
 	};
 
-	mobile_radio g_mobile_radio("mobileradio", "随身电台", "Allows you to listen to the radio on foot", g.self.mobile_radio);
+	mobile_radio g_mobile_radio("mobileradio", "随身电台", "随时收听车载电台", g.self.mobile_radio);
 }

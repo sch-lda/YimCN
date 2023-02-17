@@ -40,5 +40,5 @@ namespace big
 		}
 	};
 
-	horn_boost g_horn_boost("hornboost", "喇叭加速", "Boosts your vehicle forward when you sound the horn", g.vehicle.horn_boost);
+	horn_boost g_horn_boost("hornboost", "喇叭加速", "鸣笛时加速载具", g.vehicle.horn_boost);
 }

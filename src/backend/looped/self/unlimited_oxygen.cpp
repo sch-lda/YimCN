@@ -15,5 +15,5 @@ namespace big
 		}
 	};
 
-	unlimited_oxygen g_unlimited_oxygen("infoxy", "无限氧气", "Allows you to stay underwater without losing oxygen", g.self.unlimited_oxygen);
+	unlimited_oxygen g_unlimited_oxygen("infoxy", "无限氧气", "在水下不消耗氧气", g.self.unlimited_oxygen);
 }

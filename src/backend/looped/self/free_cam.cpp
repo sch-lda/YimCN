@@ -107,5 +107,5 @@ namespace big
 		}
 	};
 
-	free_cam g_free_cam("freecam", "自由视角", "Allows you to move your camera freely?", g.self.free_cam);
+	free_cam g_free_cam("freecam", "自由视角", "自由移动游戏镜头", g.self.free_cam);
 }

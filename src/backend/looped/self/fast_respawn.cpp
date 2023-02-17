@@ -22,5 +22,5 @@ namespace big
 		}
 	};
 
-	fast_respawn g_fast_respawn("fastrespawn", "立即重生", "Makes you respawn instantly when you die", g.self.fast_respawn);
+	fast_respawn g_fast_respawn("fastrespawn", "立即重生", "死后快速原地重生", g.self.fast_respawn);
 }

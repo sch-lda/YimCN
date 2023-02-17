@@ -87,7 +87,7 @@ namespace big
 							{
 								TASK::SET_HIGH_FALL_TASK(ent_to_add, 0, 0, 0);
 
-								g_notification_service->push_warning("特殊武器", "Selected entity at crosshair.");
+								g_notification_service->push_warning("特殊武器", "使用准星选择实体.");
 							}
 							
 							ents.push_back(ent_to_add);

@@ -14,5 +14,5 @@ namespace big
 		}
 	};
 
-	clean_player g_clean_player("clean", "清洁玩家", "Cleans the player of wetness and decals", 0);
+	clean_player g_clean_player("clean", "清洁玩家", "清除弹孔脏污和水渍", 0);
 }

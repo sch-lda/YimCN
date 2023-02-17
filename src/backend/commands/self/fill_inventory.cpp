@@ -22,5 +22,5 @@ namespace big
 		}
 	};
 
-	fill_inventory g_fill_inventory("fillsnacks", "补满零食护甲", "Refills snacks and armor", 0);
+	fill_inventory g_fill_inventory("fillsnacks", "补满零食护甲", "补充零食和防弹衣", 0);
 }

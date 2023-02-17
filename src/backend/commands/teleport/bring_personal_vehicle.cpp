@@ -16,5 +16,5 @@ namespace big
 		}
 	};
 
-	bring_personal_vehicle g_bring_personal_vehicle("bringpv", "带来个人载具", "Teleports your PV near you", 0);
+	bring_personal_vehicle g_bring_personal_vehicle("bringpv", "带来个人载具", "将个人载具传送到附近并进入驾驶座位", 0);
 }

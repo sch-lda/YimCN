@@ -21,5 +21,5 @@ namespace big
 		}
 	};
 
-	infinite_mag g_infinite_mag("infclip", "无限弹夹", "Shoot forever without needing to reload", g.weapons.infinite_mag);
+	infinite_mag g_infinite_mag("infclip", "无限弹夹", "无需重新装填弹药", g.weapons.infinite_mag);
 }

@@ -61,5 +61,5 @@ namespace big
 		}
 	};
 
-	super_run g_super_run("fastrun", "超级跑", "Makes you run much faster", g.self.super_run);
+	super_run g_super_run("fastrun", "超级跑", "让你跑得很快", g.self.super_run);
 }

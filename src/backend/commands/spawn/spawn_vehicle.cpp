@@ -54,6 +54,6 @@ namespace big
 	};
 
 	spawn_vehicle g_spawn_vehicle("spawn", "生成载具", "Spawn a vehicle with the specified model", 1);
-	bool_command g_spawn_maxed("spawnmaxed", "最大升级", "Controls whether the vehicle spawned will have its mods maxed out", g.spawn_vehicle.spawn_maxed);
-	bool_command g_spawn_inside("spawnin", "坐进载具", "Controls whether the player should be set inside the vehicle after it spawns", g.spawn_vehicle.spawn_inside);
+	bool_command g_spawn_maxed("spawnmaxed", "最大升级", "控制生成的载具是否是完全升级的载具", g.spawn_vehicle.spawn_maxed);
+	bool_command g_spawn_inside("spawnin", "坐进载具", "控制载具生成后是否自动进入载具驾驶座位", g.spawn_vehicle.spawn_inside);
 }

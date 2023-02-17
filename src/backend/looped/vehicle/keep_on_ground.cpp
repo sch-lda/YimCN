@@ -18,5 +18,5 @@ namespace big
 		}
 	};
 
-	keep_on_ground g_keep_on_ground("keeponground", "不会翻车", "Makes it so your vehicle is always on the ground on all four wheels", g.vehicle.keep_on_ground);
+	keep_on_ground g_keep_on_ground("keeponground", "不会翻车", "让载具的轮子吸在地面上", g.vehicle.keep_on_ground);
 }

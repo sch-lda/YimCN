@@ -13,5 +13,5 @@ namespace big
 		}
 	};
 
-	force_crosshairs g_force_crosshairs("crosshairs", "强制显示准星", "Shows the crosshair even when you are not aiming", g.weapons.force_crosshairs); // do we need this?
+	force_crosshairs g_force_crosshairs("crosshairs", "强制显示准星", "即使不瞄准也绘制准星", g.weapons.force_crosshairs); // do we need this?
 }

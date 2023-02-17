@@ -98,5 +98,5 @@ namespace big
 		}
 	};
 
-	noclip g_noclip("noclip", "自由移动", "Allows you to fly through the map", g.self.noclip);
+	noclip g_noclip("noclip", "自由移动", "忽视所有碰撞，上天入地下海无所不能", g.self.noclip);
 }

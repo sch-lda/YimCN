@@ -20,5 +20,5 @@ namespace big
 		}
 	};
 
-	no_ragdoll g_no_ragdoll("noragdoll", "不会摔倒", "Prevents you from ragdolling", g.self.no_ragdoll);
+	no_ragdoll g_no_ragdoll("noragdoll", "不会摔倒", "又称无布娃娃", g.self.no_ragdoll);
 }

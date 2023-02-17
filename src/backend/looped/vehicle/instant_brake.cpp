@@ -18,5 +18,5 @@ namespace big
 		}
 	};
 
-	instant_brake g_instant_brake("instantbrake", "立即刹车", "Makes your vehicle stop instantly when you press the brake", g.vehicle.instant_brake);
+	instant_brake g_instant_brake("instantbrake", "立即刹车", "刹车时立即停止载具", g.vehicle.instant_brake);
 }

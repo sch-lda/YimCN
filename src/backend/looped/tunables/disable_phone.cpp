@@ -19,5 +19,5 @@ namespace big
 		}
 	};
 
-	disable_phone g_disable_phone("nophone", "禁用手机", "Blocks phone and stops all phone calls", g.tunables.disable_phone);
+	disable_phone g_disable_phone("nophone", "禁用手机", "禁止打开手机并阻止来电.注意，如果某些重要联系人的电话被阻止，你将无法开启对应的任务", g.tunables.disable_phone);
 }

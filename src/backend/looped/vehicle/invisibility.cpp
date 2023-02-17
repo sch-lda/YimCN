@@ -38,6 +38,6 @@ namespace big
 		}
 	};
 
-	vehinvisibility g_vehinvisibility("invisveh", "载具隐身", "Makes your car invisible", g.vehicle.vehinvisibility);
-	bool_command g_localveh_visibility("localinvisveh", "本地可见", "Makes your car visible to yourself, other players will still not be able to see it", g.vehicle.localveh_visibility);
+	vehinvisibility g_vehinvisibility("invisveh", "载具隐身", "让载具不可见", g.vehicle.vehinvisibility);
+	bool_command g_localveh_visibility("localinvisveh", "本地可见", "让载具对自己可见，对其他玩家隐身", g.vehicle.localveh_visibility);
 }

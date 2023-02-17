@@ -19,5 +19,5 @@ namespace big
 		}
 	};
 
-	teleport_to_personal_vehicle g_teleport_to_personal_vehicle("pvtp", "传送到个人载具", "Teleports you into your PV", 0);
+	teleport_to_personal_vehicle g_teleport_to_personal_vehicle("pvtp", "传送进个人载具", "将自己传送到个人载具内部", 0);
 }

@@ -13,5 +13,5 @@ namespace big
 		}
 	};
 
-	skip_cutscene g_skip_cutscene("skipcutscene", "跳过过场动画", "Skips the currently playing cutscene", 0);
+	skip_cutscene g_skip_cutscene("skipcutscene", "跳过过场动画", "跳过当前正在播放的过场动画", 0);
 }
