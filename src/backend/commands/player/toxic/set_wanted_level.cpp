@@ -67,5 +67,5 @@ namespace big
 		}
 	};
 
-	set_wanted_level g_set_wanted_level("wanted", "设置通缉等级", "Sets the specified wanted level to the player", 1, false);
+	set_wanted_level g_set_wanted_level("wanted", "设置通缉等级", "修改玩家的通缉等级", 1, false);
 }
