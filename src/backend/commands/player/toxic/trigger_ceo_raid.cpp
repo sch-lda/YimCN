@@ -27,5 +27,5 @@ namespace big
 		}
 	};
 
-	trigger_ceo_raid g_trigger_ceo_raid("ceoraid", "触发CEO仓库突袭", "The player has to be in a CEO for this to work", 0);
+	trigger_ceo_raid g_trigger_ceo_raid("ceoraid", "触发CEO仓库突袭", "目标玩家需要注册为CEO", 0);
 }
