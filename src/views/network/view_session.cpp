@@ -365,12 +365,12 @@ namespace big
 			ImGui::SetTooltip("DISABLE_CEO_MONEY_DESC"_T.data());
 		ImGui::SameLine();
 		ImGui::Checkbox("RANDOMIZE_CEO_COLORS"_T.data(), &g.session.randomize_ceo_colors);
-		ImGui::Checkbox("Block Jobs", &g.session.block_jobs);
+		ImGui::Checkbox("阻止差事", &g.session.block_jobs);
 		if (ImGui::IsItemHovered())
-			ImGui::SetTooltip("Prevents remote players from starting jobs while in your session");
+			ImGui::SetTooltip("防止远程玩家在战局中启动差事活动");
 		ImGui::SameLine();
-		components::script_patch_checkbox("Block Muggers", &g.session.block_muggers, "For the entire session");
+		components::script_patch_checkbox("阻止劫匪", &g.session.block_muggers, "对整个战局生效");
 		ImGui::SameLine();
-		components::script_patch_checkbox("Block CEO Raids", &g.session.block_ceo_raids, "For the entire session");
+		components::script_patch_checkbox("阻止产业突袭", &g.session.block_ceo_raids, "对整个战局生效");
 	}
 }

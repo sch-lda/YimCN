@@ -6,7 +6,7 @@ namespace big
 	custom_text_service::custom_text_service()
 	{
 		add_callback_for_labels({ RAGE_JOAAT("RESPAWN_W"), RAGE_JOAAT("RESPAWN_W_MP") }, respawn_label_callback);
-		add_label_overwrite(RAGE_JOAAT("GC_OTR_TMR"), "HIDING FROM CLOWNS");
+		add_label_overwrite(RAGE_JOAAT("GC_OTR_TMR"), "雷达隐匿");
 		// add_label_overwrite(RAGE_JOAAT("TICK_LEFTCHEAT"), "~a~~HUD_COLOUR_WHITE~ has been swatted by Rockstar.");
 
 		g_custom_text_service = this;

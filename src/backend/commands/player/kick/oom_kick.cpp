@@ -44,5 +44,5 @@ namespace big
 		}
 	};
 
-	oom_kick g_oom_kick("oomkick", "OOM Kick", "Causes the player to be kicked with an alert. This kick has a high chance of backfiring in its current state", 0, false);
+	oom_kick g_oom_kick("oomkick", "OOM 踢", "被踢出的玩家将显示一个警报. 这种踢出可能会同时踢出你自己", 0, false);
 }

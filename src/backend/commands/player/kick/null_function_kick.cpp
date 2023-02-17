@@ -28,5 +28,5 @@ namespace big
 		}
 	};
 
-	null_function_kick g_null_function_kick("nfkick", "Null Function Kick", "It may take around 15 seconds for the player to actually leave the session", 0);
+	null_function_kick g_null_function_kick("nfkick", "无效函数踢", "这可能需要等待十秒钟才能彻底移除玩家", 0);
 }
