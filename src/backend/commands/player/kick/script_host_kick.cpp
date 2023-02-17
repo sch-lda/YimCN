@@ -27,5 +27,5 @@ namespace big
 		}
 	};
 
-	script_host_kick g_script_host_kick("shkick", "脚本主机踢", "Blocked by most menus", 0, false);
+	script_host_kick g_script_host_kick("shkick", "脚本主机踢", "已被大部分菜单阻挡", 0, false);
 }

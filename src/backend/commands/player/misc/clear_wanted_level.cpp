@@ -20,5 +20,5 @@ namespace big
 		}
 	};
 
-	clear_wanted_level g_clear_wanted_level("clearwanted", "清除通缉等级", "Clears the player's wanted level", 0);
+	clear_wanted_level g_clear_wanted_level("clearwanted", "清除通缉等级", "清除玩家的通缉等级", 0);
 }

@@ -17,5 +17,5 @@ namespace big
 		}
 	};
 
-	steal_identity g_steal_identity("copymodel", "复制完整模型", "将玩家的人物模型复制到自己", 0, false); // do we really need this?
+	steal_identity g_steal_identity("copymodel", "复制人物模型", "将玩家的人物模型复制到自己", 0, false); // do we really need this?
 }

@@ -62,7 +62,7 @@ namespace big
 
 		ImGui::EndGroup();
 
-		components::sub_title("PTFX 效果");
+		components::sub_title("PTFX效果");
 
 		components::command_checkbox<"ptfx">();
 		if (g.self.ptfx_effects.show)
@@ -165,14 +165,14 @@ namespace big
 
 		components::sub_title("POLICE"_T);
 
-		ImGui::Checkbox("NEVER_WANTED"_T.data(), &g.self.never_wanted);
+		ImGui::Checkbox("永不通缉", &g.self.never_wanted);
 
 		if (!g.self.never_wanted)
 		{
-			ImGui::Checkbox("FORCE_WANTED_LVL"_T.data(), &g.self.force_wanted_level);
+			ImGui::Checkbox("强制通缉等级", &g.self.force_wanted_level);
 			if (ImGui::IsItemHovered())
-				ImGui::SetTooltip("FORCE_WANTED_LVL_INFO"_T.data());
-			ImGui::Text("WANTED_LVL"_T.data());
+				ImGui::SetTooltip("强制自己获得一个特定的悬赏等级");
+			ImGui::Text("通缉等级");
 			if (
 				ImGui::SliderInt("###wanted_level", &g.self.wanted_level, 0, 5) &&
 				!g.self.force_wanted_level &&

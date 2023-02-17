@@ -42,5 +42,5 @@ namespace big
 		}
 	};
 
-	enter_interior g_enter_interior("enterint", "进入室内", "进入玩家的室内", 0, false);
+	enter_interior g_enter_interior("enterint", "进入室内", "进入玩家所在的的室内", 0, false);
 }

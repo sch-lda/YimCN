@@ -28,5 +28,5 @@ namespace big
 		}
 	};
 
-	end_session_kick g_end_session_kick("endkick", "战局结束踢", "这可能需要等待十秒钟", 0, false);
+	end_session_kick g_end_session_kick("endkick", "战局结束踢", "这可能需要等待十秒左右", 0, false);
 }

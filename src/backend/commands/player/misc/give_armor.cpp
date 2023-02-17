@@ -21,5 +21,5 @@ namespace big
 		}
 	};
 
-	give_armor g_give_armor("givearmor", "给与防弹衣", "Gives the player some armor", 0);
+	give_armor g_give_armor("givearmor", "给与防弹衣", "给与玩家一些防弹衣", 0);
 }

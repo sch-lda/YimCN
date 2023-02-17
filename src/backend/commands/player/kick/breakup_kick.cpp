@@ -61,6 +61,6 @@ namespace big
 		}
 	};
 
-	breakup_kick g_breakup_kick("breakup", "分离踢", "几乎不可抵挡但能被检测使用者", 0, false);
+	breakup_kick g_breakup_kick("breakup", "分离踢", "几乎不可抵挡但能被其他菜单检测", 0, false);
 	bool_command g_show_cheating_message("breakupcheating", "显示作弊者信息", "玩家被踢出时对所有人使用 \"因为作弊被踢出战局\" 代替正常的已离开提示", g.session.show_cheating_message);
 }
