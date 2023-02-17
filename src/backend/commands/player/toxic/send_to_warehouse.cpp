@@ -34,5 +34,5 @@ namespace big
 		}
 	};
 
-	send_to_warehouse g_send_to_warehouse("warehousetp", "送到仓库", "Teleports the player to the specified warehouse index", 1);
+	send_to_warehouse g_send_to_warehouse("warehousetp", "送进仓库", "传送玩家到指定的仓库", 1);
 }
