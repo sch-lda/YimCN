@@ -24,7 +24,7 @@ namespace big
 		ImGui::BeginGroup();
 
 		ImGui::Checkbox("增加可同时存在的C4上限 (最大50)", &g.weapons.increased_c4_limit);
-		ImGui::Checkbox("Increased Flare Limit (Max = 50)", &g.weapons.increased_flare_limit);
+		ImGui::Checkbox("增加可同时存在的信号弹上限 (最大50)", &g.weapons.increased_flare_limit);
 
 		components::command_checkbox<"rapidfire">();
 
