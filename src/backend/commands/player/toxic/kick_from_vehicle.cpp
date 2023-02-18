@@ -37,5 +37,5 @@ namespace big
 		}
 	};
 
-	kick_from_vehicle g_kick_from_vehicle("vehkick", "踢出载具", "Kicks the player from their current vehicle", 0);
+	kick_from_vehicle g_kick_from_vehicle("vehkick", "踢出载具", "将玩家从载具中踢出去", 0);
 }

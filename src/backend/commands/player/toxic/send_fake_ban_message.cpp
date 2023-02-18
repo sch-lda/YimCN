@@ -31,5 +31,5 @@ namespace big
 		}
 	};
 
-	send_fake_ban_message g_send_fake_ban_message("fakeban", "显示虚假的封号警告", "Sends a fake ban notification to the player", 0);
+	send_fake_ban_message g_send_fake_ban_message("fakeban", "显示虚假的封号警告", "在玩家的小地图上方显示悬浮通知伪造的被封号警告", 0);
 }

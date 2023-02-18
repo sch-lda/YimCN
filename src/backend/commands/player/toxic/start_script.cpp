@@ -52,13 +52,13 @@ namespace big
 		}
 	};
 
-	start_script<20> g_start_tutorial("tutorial", "送进新手教程", "显示新手教程的不可跳过的过场动画", 0);
-	start_script<193> g_start_golf("golf", "送到高尔夫", "开始高尔夫运动", 0);
-	start_script<196> g_start_flight_school("flightschool", "送到飞行学校", "传送玩家到机场并触发飞行学校活动", 0);
-	start_script<192> g_start_darts("darts", "开始飞镖游戏", "Starts darts in a Sandy Shores bar", 0);
-	start_script<211> g_start_badlands("badlands", "Start Badlands Revenge II", "启动全屏电子游戏 Badlands Revenge II", 0);
-	start_script<216> g_start_space_monkey("spacemonkey", "开始太空猴3游戏", "启动全屏电子游戏 Space Monkey 3", 0);
-	start_script<216> g_start_wizards_ruin("wizard", "Start The Wizard's Ruin", "启动全屏电子游戏 The Wizard's Ruin", 0);
-	start_script<217> g_start_qub3d("qub3d", "开始 Qub3D 游戏", "启动全屏电子游戏 Qub3D", 0);
-	start_script<218> g_start_camhedz("camhedz", "Start Camhedz", "启动全屏电子游戏 Camhedz", 0);
+	start_script<20> g_start_tutorial("tutorial", "显示新手教程", "显示新手教程的不可跳过的过场动画", 0);
+	start_script<193> g_start_golf("golf", "高尔夫", "开始高尔夫运动", 0);
+	start_script<196> g_start_flight_school("flightschool", "飞行学校", "传送玩家到机场并触发飞行学校活动", 0);
+	start_script<192> g_start_darts("darts", "飞镖游戏", "开启沙滩海岸酒吧的飞镖游戏", 0);
+	start_script<211> g_start_badlands("badlands", "Badlands Revenge II游戏", "启动全屏电子游戏 Badlands Revenge II", 0);
+	start_script<216> g_start_space_monkey("spacemonkey", "太空猴3游戏", "启动全屏电子游戏 Space Monkey 3", 0);
+	start_script<216> g_start_wizards_ruin("wizard", "The Wizard's Ruin 游戏", "启动全屏电子游戏 The Wizard's Ruin", 0);
+	start_script<217> g_start_qub3d("qub3d", "Qub3D 游戏", "启动全屏电子游戏 Qub3D", 0);
+	start_script<218> g_start_camhedz("camhedz", "Camhedz 游戏", "启动全屏电子游戏 Camhedz", 0);
 }

@@ -142,5 +142,5 @@ namespace big
 		}
 	};
 
-	kick_from_interior g_kick_from_interior("intkick", "踢出室内", "Kicks the player from the interior they are in", 0);
+	kick_from_interior g_kick_from_interior("intkick", "踢出室内", "将玩家从室内踢出去", 0);
 }

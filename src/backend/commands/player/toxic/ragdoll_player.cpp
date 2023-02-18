@@ -21,5 +21,5 @@ namespace big
 		}
 	};
 
-	ragdoll_player g_ragdoll_player("ragdoll", "使其摔倒", "Ragdolls the player", 0);
+	ragdoll_player g_ragdoll_player("ragdoll", "使其摔倒", "让玩家摔倒一次", 0);
 }

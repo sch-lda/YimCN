@@ -35,5 +35,5 @@ namespace big
 		}
 	};
 
-	show_transaction_error g_show_transaction_error("error", "显示交易失败警报", "Shows a transaction error to the player", 0);
+	show_transaction_error g_show_transaction_error("error", "显示交易失败警报", "玩家将看到全屏显示的库存或价格无效导致交易失败的警告", 0);
 }

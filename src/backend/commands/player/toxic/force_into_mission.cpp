@@ -28,5 +28,5 @@ namespace big
 		}
 	};
 
-	force_into_mission g_force_into_mission("mission", "强制任务", "Forces the player into a gunrunning mission", 0);
+	force_into_mission g_force_into_mission("mission", "强制任务", "强制玩家进入机动作战中心任务", 0);
 }

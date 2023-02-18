@@ -15,5 +15,5 @@ namespace big
 		}
 	};
 	
-	teleport_to_player g_teleport_to_player("playertp", "传送到玩家", "Teleports you to the player", 0, false);
+	teleport_to_player g_teleport_to_player("playertp", "传送到玩家", "传送自己到玩家当前的位置", 0, false);
 }

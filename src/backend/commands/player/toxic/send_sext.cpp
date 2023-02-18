@@ -41,5 +41,5 @@ namespace big
 		}
 	};
 
-	send_sext g_send_sext("sext", "发送短信", "Sends a random sext (with an image attachment) to the player", 0);
+	send_sext g_send_sext("sext", "发送短信", "发送带有头像的随机内容短信", 0);
 }

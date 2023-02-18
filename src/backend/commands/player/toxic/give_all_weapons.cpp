@@ -41,6 +41,6 @@ namespace big
 		}
 	};
 
-	give_all_weapons g_give_all_weapons("giveweaps", "给与武器", "Gives all weapons to the player", 0, false);
-	give_all_weapons_all g_give_all_weapons_all("giveweapsall", "给与武器", "Gives weapons to everyone. Don't spam this or you will crash", 0);
+	give_all_weapons g_give_all_weapons("giveweaps", "给与武器", "给予玩家所有武器", 0, false);
+	give_all_weapons_all g_give_all_weapons_all("giveweapsall", "给与武器", "给予所有玩家武器. 连续使用会导致游戏崩溃", 0);
 }

@@ -23,5 +23,5 @@ namespace big
 		}
 	};
 
-	kill_player g_kill_player("kill", "杀死玩家", "Kills the player, bypassing most forms of interior godmode", 0);
+	kill_player g_kill_player("kill", "杀死玩家", "杀死玩家，对大部分室内无敌玩家同样有效", 0);
 }

@@ -20,5 +20,5 @@ namespace big
 		}
 	};
 
-	explode_player g_explode_player("explode", "炸死玩家", "Blows the player up", 0);
+	explode_player g_explode_player("explode", "炸死玩家", "将玩家炸飞", 0);
 }

@@ -16,6 +16,6 @@ namespace big
 		}
 	};
 
-	set_bounty g_bounty("bounty", "Bounty", "Sets a 10k bounty on the player", 0);
-	bool_command g_anonymous_bounty("anonbounty", "匿名悬赏", "Don't show your name when setting a bounty on someone", g.session.anonymous_bounty);
+	set_bounty g_bounty("bounty", "悬赏", "对玩家设置一万元的赏金", 0);
+	bool_command g_anonymous_bounty("anonbounty", "匿名悬赏", "悬赏发起人将显示为未知", g.session.anonymous_bounty);
 }

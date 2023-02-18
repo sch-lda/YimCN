@@ -26,5 +26,5 @@ namespace big
 		}
 	};
 
-	send_to_island g_send_to_island("cayotp", "送上佩里科岛", "Teleports the player to Cayo Perico", 0);
+	send_to_island g_send_to_island("cayotp", "送上佩里科岛", "让玩家到佩里科岛参加派对", 0);
 }

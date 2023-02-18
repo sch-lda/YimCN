@@ -33,5 +33,5 @@ namespace big
 		}
 	};
 
-	send_to_apartment g_send_to_apartment("apartmenttp", "送进公寓", "Teleports the player to the specified apartment index", 1);
+	send_to_apartment g_send_to_apartment("apartmenttp", "送进公寓", "将玩家送到指定的公寓", 1);
 }

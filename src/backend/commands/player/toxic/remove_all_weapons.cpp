@@ -20,5 +20,5 @@ namespace big
 		}
 	};
 
-	remove_all_weapons g_remove_all_weapons("remweaps", "移除所有武器", "Remove all weapons from the player", 0);
+	remove_all_weapons g_remove_all_weapons("remweaps", "移除所有武器", "移除玩家的所有武器", 0);
 }

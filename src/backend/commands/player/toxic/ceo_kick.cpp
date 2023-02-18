@@ -47,5 +47,5 @@ namespace big
 		}
 	};
 
-	ceo_kick g_ceo_kick("ceokick", "CEO踢", "Kicks an associate from the CEO/MC. You cannot kick leaders of CEOs/MCs anymore", 0);
+	ceo_kick g_ceo_kick("ceokick", "CEO踢", "踢出组织或摩托帮成员，对CEO或首领无效", 0);
 }
