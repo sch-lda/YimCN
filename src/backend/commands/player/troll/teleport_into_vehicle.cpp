@@ -17,5 +17,5 @@ namespace big
 		}
 	};
 
-	teleport_into_vehicle g_teleport_into_vehicle("playervehtp", "传送进载具", "传送进玩家所在的载具.建议先使用观战确认玩家是否在载具内或者载具是否有空座", 0, false);
+	teleport_into_vehicle g_teleport_into_vehicle("playervehtp", "进入载具", "传送进玩家所在的载具.建议先使用观战确认玩家是否在载具内或者载具是否有空座", 0, false);
 }

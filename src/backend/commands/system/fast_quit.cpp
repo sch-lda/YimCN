@@ -12,5 +12,5 @@ namespace big
 		}
 	};
 
-	fast_quit g_fast_quit("fastquit", "崩溃自己", "不保存立即关闭游戏.", 0);
+	fast_quit g_fast_quit("fastquit", "快速退出", "不保存立即关闭游戏.", 0);
 }

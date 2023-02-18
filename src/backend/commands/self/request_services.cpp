@@ -24,6 +24,6 @@ namespace big
 		}
 	};
 
-	boat_pickup g_boat_pickup("boatpickup", "请求船只接送", "Request a boat pickup", 0);
+	boat_pickup g_boat_pickup("boatpickup", "请求船只接送", "请求船只接送", 0);
 	ballistic_armor g_ballistic_armor("ballisticarmor", "请求重甲", "请求空投重型防弹装甲和火神机枪", 0);
 }
