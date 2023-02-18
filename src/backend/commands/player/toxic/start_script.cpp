@@ -56,9 +56,10 @@ namespace big
 	start_script<193> g_start_golf("golf", "高尔夫", "开始高尔夫运动", 0);
 	start_script<196> g_start_flight_school("flightschool", "飞行学校", "传送玩家到机场并触发飞行学校活动", 0);
 	start_script<192> g_start_darts("darts", "飞镖游戏", "开启沙滩海岸酒吧的飞镖游戏", 0);
-	start_script<211> g_start_badlands("badlands", "Badlands Revenge II游戏", "启动全屏电子游戏 Badlands Revenge II", 0);
-	start_script<216> g_start_space_monkey("spacemonkey", "太空猴3游戏", "启动全屏电子游戏 Space Monkey 3", 0);
-	start_script<216> g_start_wizards_ruin("wizard", "The Wizard's Ruin 游戏", "启动全屏电子游戏 The Wizard's Ruin", 0);
+	start_script<211> g_start_badlands("badlands", "荒地复仇2游戏", "启动全屏电子游戏荒地复仇2", 0);
+	start_script<216> g_start_space_monkey("spacemonkey", "太空猴3游戏", "启动全屏电子游戏太空猴3:香蕉坏了", 0);
+	start_script<216> g_start_wizards_ruin("wizard", "断袖诅咒游戏", "启动全屏电子游戏断袖诅咒", 0);
 	start_script<217> g_start_qub3d("qub3d", "Qub3D 游戏", "启动全屏电子游戏 Qub3D", 0);
-	start_script<218> g_start_camhedz("camhedz", "Camhedz 游戏", "启动全屏电子游戏 Camhedz", 0);
+	start_script<218> g_start_camhedz("camhedz", "猎头游戏", "启动全屏电子游戏猎头", 0);
 }
+

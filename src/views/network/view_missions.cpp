@@ -27,7 +27,7 @@ namespace big
 		components::sub_title("事件启动器");
 
 		ImGui::BeginGroup();
-		components::button("Hot Target", [] { scripts::start_launcher_script(36); });
+		components::button("移动目标", [] { scripts::start_launcher_script(36); });
 		components::button("杀戮名单", [] { scripts::start_launcher_script(37); });
 		components::button("检查点", [] { scripts::start_launcher_script(39); });
 		components::button("挑战", [] { scripts::start_launcher_script(40); });
@@ -39,7 +39,7 @@ namespace big
 		ImGui::BeginGroup();
 		components::button("抢手货", [] { scripts::start_launcher_script(43); });
 		components::button("城堡之王", [] { scripts::start_launcher_script(45); });
-		components::button("刑事犯罪", [] { scripts::start_launcher_script(46); });
+		components::button("刑事破坏", [] { scripts::start_launcher_script(46); });
 		components::button("狩猎野兽", [] { scripts::start_launcher_script(47); });
 		components::button("商战", [] { scripts::start_launcher_script(114); });
 		ImGui::EndGroup();
@@ -47,7 +47,7 @@ namespace big
 		ImGui::SameLine();
 
 		ImGui::BeginGroup();
-		components::button("One-On-One Deathmatch", [] { scripts::start_launcher_script(197); });
+		components::button("单挑死斗", [] { scripts::start_launcher_script(197); });
 		components::button("即时竞速", [] { scripts::start_launcher_script(16); });
 		components::button("飞行学校", [] { scripts::start_launcher_script(196); });
 		components::button("高尔夫", [] { scripts::start_launcher_script(193); });
@@ -59,32 +59,32 @@ namespace big
 		ImGui::SameLine();
 
 		ImGui::BeginGroup();
-		components::button("Gunslinger", [] { scripts::start_launcher_script(211); });
-		components::button("Space Monkey", [] { scripts::start_launcher_script(216); });
-		components::button("Wizard", [] { scripts::start_launcher_script(212); });
-		components::button("QUB3D", [] { scripts::start_launcher_script(217); });
-		components::button("Camhedz", [] { scripts::start_launcher_script(218); });
+		components::button("荒地复仇游戏", [] { scripts::start_launcher_script(211); });
+		components::button("太空猴3游戏", [] { scripts::start_launcher_script(216); });
+		components::button("断袖诅咒游戏", [] { scripts::start_launcher_script(212); });
+		components::button("QUB3D游戏", [] { scripts::start_launcher_script(217); });
+		components::button("猎头游戏", [] { scripts::start_launcher_script(218); });
 		ImGui::EndGroup();
 
 		ImGui::Separator();
 
 		if (check_script(RAGE_JOAAT("am_criminal_damage")))
 		{
-			components::sub_title("Criminal Damage");
-			components::button("Start Event##criminal_damage", [] {
+			components::sub_title("刑事破坏");
+			components::button("启动活动##criminal_damage", [] {
 				if (scripts::force_host(RAGE_JOAAT("am_criminal_damage")))
 					if (auto script = gta_util::find_script_thread(RAGE_JOAAT("am_criminal_damage")))
 						*script_local(script->m_stack, scr_locals::am_criminal_damage::broadcast_idx).at(43).as<int*>() = 0;
 			});
 			ImGui::SameLine();
-			components::button("Finish Event##criminal_damage", []
+			components::button("停止活动##criminal_damage", []
 			{
 				if (scripts::force_host(RAGE_JOAAT("am_criminal_damage")))
 					if (auto script = gta_util::find_script_thread(RAGE_JOAAT("am_criminal_damage")))
 						*script_local(script->m_stack, scr_locals::am_criminal_damage::broadcast_idx).at(39).as<int*>() = 0;
 			});
 
-			components::button("Max Score", []
+			components::button("分数最高", []
 			{
 				if (auto criminal_damage = gta_util::find_script_thread(RAGE_JOAAT("am_criminal_damage")))
 					*script_local(criminal_damage->m_stack, scr_locals::am_criminal_damage::score_idx).as<int*>() = 999'999'999;
@@ -93,23 +93,23 @@ namespace big
 
 		if (check_script(RAGE_JOAAT("am_cp_collection")))
 		{
-			components::sub_title("Checkpoints");
+			components::sub_title("检查点");
 
-			components::button("Start Event##cp_collection", []
+			components::button("启动活动##cp_collection", []
 			{
 				if (scripts::force_host(RAGE_JOAAT("am_cp_collection")))
 					if (auto script = gta_util::find_script_thread(RAGE_JOAAT("am_cp_collection")))
 						*script_local(script->m_stack, scr_locals::am_cp_collection::broadcast_idx).at(667).as<int*>() = 0;
 			});
 			ImGui::SameLine();
-			components::button("Finish Event##cp_collection", []
+			components::button("结束活动##cp_collection", []
 			{
 				if (scripts::force_host(RAGE_JOAAT("am_cp_collection")))
 					if (auto script = gta_util::find_script_thread(RAGE_JOAAT("am_cp_collection")))
 						*script_local(script->m_stack, scr_locals::am_cp_collection::broadcast_idx).at(661).as<int*>() = 0;
 			});
 
-			components::button("Win Event", []
+			components::button("一键获胜", []
 			{
 				if (auto checkpoints = gta_util::find_script_thread(RAGE_JOAAT("am_cp_collection")))
 					*script_local(checkpoints->m_stack, scr_locals::am_cp_collection::player_broadcast_idx).at(checkpoints->m_net_component->m_local_participant_index, 5).at(4).as<int*>() = 999'999'999;
@@ -125,7 +125,7 @@ namespace big
 				}
 			});
 			ImGui::SameLine();
-			components::button("Scramble Checkpoints", []
+			components::button("协助玩家通过检查点", []
 			{
 				std::vector<Vector3> active_player_positions;
 
@@ -152,22 +152,22 @@ namespace big
 
 		if (check_script(RAGE_JOAAT("am_king_of_the_castle")))
 		{
-			components::sub_title("King Of The Castle");
-			components::button("Complete Event##kotc", []
+			components::sub_title("城堡之王");
+			components::button("完成活动##kotc", []
 			{
 				if (scripts::force_host(RAGE_JOAAT("am_king_of_the_castle")))
 					if (auto script = gta_util::find_script_thread(RAGE_JOAAT("am_king_of_the_castle")))
 						*script_local(script->m_stack, scr_locals::am_king_of_the_castle::broadcast_idx).at(1).at(1).as<int*>() = 0;
 			});
 			ImGui::SameLine();
-			components::button("Expire Event (if possible)##kotc", []
+			components::button("活动过期(如果可能)##kotc", []
 			{
 				if (scripts::force_host(RAGE_JOAAT("am_king_of_the_castle")))
 					if (auto script = gta_util::find_script_thread(RAGE_JOAAT("am_king_of_the_castle")))
 						*script_local(script->m_stack, scr_locals::am_king_of_the_castle::broadcast_idx).at(1).at(3).as<int*>() = 0;
 			});
 
-			components::button("Become The King##kotc", []
+			components::button("成为城堡之王##kotc", []
 			{
 				if (scripts::force_host(RAGE_JOAAT("am_king_of_the_castle")))
 				{
@@ -181,7 +181,7 @@ namespace big
 				}
 			});
 			ImGui::SameLine();
-			components::button("Dethrone Everyone##kotc", []
+			components::button("夺取位置##kotc", []
 			{
 				if (scripts::force_host(RAGE_JOAAT("am_king_of_the_castle")))
 				{

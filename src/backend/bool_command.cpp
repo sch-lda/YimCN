@@ -15,12 +15,12 @@ namespace big
 			if (is_enabled())
 			{
 				m_toggle = false;
-				ctx->report_output(std::format("{} has been disabled", m_label));
+				ctx->report_output(std::format("{} 已关闭", m_label));
 			}
 			else
 			{
 				m_toggle = true;
-				ctx->report_output(std::format("{} has been enabled", m_label));
+				ctx->report_output(std::format("{} 已开启", m_label));
 			}
 		}
 		else

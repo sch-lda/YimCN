@@ -41,7 +41,7 @@ namespace big
 			static int wanted_level;
 			ImGui::SliderInt("WANTED_LVL"_T.data(), &wanted_level, 0, 5);
 			ImGui::SameLine();
-			components::player_command_button<"wanted">(g_player_service->get_selected(), { (uint64_t)wanted_level }, "Set");
+			components::player_command_button<"wanted">(g_player_service->get_selected(), { (uint64_t)wanted_level }, "设置");
 
 			components::small_text("TELEPORTS"_T);
 

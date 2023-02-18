@@ -59,7 +59,7 @@ BOOL APIENTRY DllMain(HMODULE hmod, DWORD reason, PVOID)
 			try
 			{
 				LOG(INFO) << "Yim's Menu for CN Initializing";
-				LOGF(INFO, "Git Info\n\tBranch:\tUnofficial version\n\tDate:\t20230217\n非官方版本,禁止去YIMMENU官方Github反馈问题\n请耐心等待中文语言文件下载，若卡住请更换加速器或配置全局代理");
+				LOGF(INFO, "Git Info\n\tBranch:\tUnofficial version\n\tDate:\t20230218\n非官方版本,禁止去YIMMENU官方Github反馈问题\n请耐心等待中文语言文件下载，若卡住请更换加速器或配置全局代理");
 
 				g_translation_service.init();
 				LOG(INFO) << "Translation Service initialized.";
