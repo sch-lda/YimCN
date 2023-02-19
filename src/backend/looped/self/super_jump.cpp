@@ -27,5 +27,5 @@ namespace big
 		}
 	};
 
-	super_jump_looped g_super_jump_looped("superjump", "超级跳", "允许跳得很高", g.self.super_jump);
+	super_jump_looped g_super_jump_looped("superjump", "超级跳", "允许玩家跳得很高", g.self.super_jump);
 }

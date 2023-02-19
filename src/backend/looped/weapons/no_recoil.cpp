@@ -43,5 +43,5 @@ namespace big
 		}
 	};
 
-	no_recoil g_no_recoil("norecoil", "无后坐力", "Removes weapon recoil when shooting", g.weapons.no_recoil);
+	no_recoil g_no_recoil("norecoil", "无后坐力", "移除射击时后坐力", g.weapons.no_recoil);
 }

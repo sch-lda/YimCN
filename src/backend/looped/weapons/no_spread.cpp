@@ -43,5 +43,5 @@ namespace big
 		}
     };
 
-    no_spread g_no_spread("nospread", "无扩散", "Removes weapon spread when shooting", g.weapons.no_spread);
+    no_spread g_no_spread("nospread", "无扩散", "移除射击时的武器扩散", g.weapons.no_spread);
 }

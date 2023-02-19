@@ -86,7 +86,7 @@ namespace big
 				{ tabs::TIME_AND_WEATHER, { "时间天气", view::time_and_weather }},
 				{ tabs::CREATOR, { "制作器", view::creator }},
 				{ tabs::TRAIN, { "火车控制", view::train }},
-				{ tabs::WATER, { "Water", view::water }},
+				{ tabs::WATER, { "水控制", view::water }},
 				{ tabs::BLACKHOLE, { "黑洞", view::blackhole }},
 		}}},
 			{tabs::NETWORK, { "网络", nullptr, {

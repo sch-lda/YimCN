@@ -21,5 +21,5 @@ namespace big
 		}
 	};
 
-	infinite_ammo g_infinite_ammo("infammo", "无限弹药", "Never run out of ammo again", g.weapons.infinite_ammo);
+	infinite_ammo g_infinite_ammo("infammo", "无限弹药", "不会耗尽弹药", g.weapons.infinite_ammo);
 }

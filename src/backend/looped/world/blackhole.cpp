@@ -93,5 +93,5 @@ namespace big
 		}
 	};
 	
-	blackhole g_blackhole("blackhole", "黑洞", "Spawns a black hole that picks up all the peds and vehicles in your area.", g.world.blackhole.enable);
+	blackhole g_blackhole("blackhole", "黑洞", "生成一个黑洞，将你所在地区的所有行人和车辆都吸走", g.world.blackhole.enable);
 }

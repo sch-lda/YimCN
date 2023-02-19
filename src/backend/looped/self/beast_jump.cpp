@@ -18,5 +18,5 @@ namespace big
 		}
 	};
 	
-	beast_jump_looped g_beast_jump_looped("beastjump", "野兽跳", "允许你像是在狩猎野兽活动中那样跳跃", g.self.beast_jump);
+	beast_jump_looped g_beast_jump_looped("beastjump", "野兽跳", "允许你像狩猎野兽活动中的野兽那样跳跃", g.self.beast_jump);
 }

@@ -18,5 +18,5 @@ namespace big
         }
     };
 
-    auto_tp_to_waypoint g_auto_tp_to_waypoint("autotptowp", "自动传送到导航点", "Automatically teleports you to a waypoint as soon as you set one.", g.self.auto_tp);
+    auto_tp_to_waypoint g_auto_tp_to_waypoint("autotptowp", "自动传送到导航点", "设置导航点后立即传送.", g.self.auto_tp);
 }

@@ -30,5 +30,5 @@ namespace big
 		}
 	};
 
-	partwater g_partwater("partwater", "Part Water", "Makes you like Moses", g.world.water.part_water);
+	partwater g_partwater("partwater", "分开水体", "像神话中的摩西一样", g.world.water.part_water);
 }
