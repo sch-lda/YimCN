@@ -165,9 +165,9 @@ namespace big
 
 		if (ImGui::TreeNode("SORTING"_T.data()))
 		{
-			ImGui::Combo("SORT_BY"_T.data(), &g.session_browser.sort_method, "Off\0Player Count");
+			ImGui::Combo("SORT_BY"_T.data(), &g.session_browser.sort_method, "关\0玩家数量");
 			if (g.session_browser.sort_method != 0)
-				ImGui::Combo("DIRECTION"_T.data(), &g.session_browser.sort_direction, "Ascending\0Descending");
+				ImGui::Combo("DIRECTION"_T.data(), &g.session_browser.sort_direction, "升序\0降序");
 			ImGui::TreePop();
 		}
 

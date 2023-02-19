@@ -272,7 +272,7 @@ namespace ImGui
 		// Render
 		// Select which buffer we are going to display. When ImGuiInputTextFlags_NoLiveEdit is Set 'buf' might still be the old value. We Set buf to NULL to prevent accidental usage from now on.
 
-		char buf_display[64] = "None";
+		char buf_display[64] = "无";
 
 		ImGui::RenderFrame(frame_bb.Min, frame_bb.Max, ImGui::GetColorU32(ImVec4(0.20f, 0.25f, 0.30f, 1.0f)), true, style.FrameRounding);
 
@@ -280,7 +280,7 @@ namespace ImGui
 			strcpy_s(buf_display, key_names[*k]);
 		}
 		else if (g.ActiveId == id) {
-			strcpy_s(buf_display, "<Press a key>");
+			strcpy_s(buf_display, "<按下快捷键>");
 		}
 
 		const ImRect clip_rect(frame_bb.Min.x, frame_bb.Min.y, frame_bb.Min.x + size.x, frame_bb.Min.y + size.y); // Not using frame_bb.Max because we have adjusted size
