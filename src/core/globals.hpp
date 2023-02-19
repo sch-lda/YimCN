@@ -135,53 +135,53 @@ namespace big
 
 		struct reactions
 		{
-			reaction bounty{ "悬赏", "Blocked Bounty from %s", "%s tried to set a bounty on me!" };
-			reaction ceo_kick{ "CEO踢出", "Blocked CEO Kick from %s", "%s tried to kick me from my CEO!" };
-			reaction ceo_money{ "CEO副手薪水", "Blocked CEO Money from %s", "%s tried to drop money on me!" };
-			reaction clear_wanted_level{ "清除通缉等级", "Blocked Clear Wanted Level from %s", "%s tried to clear my wanted level!" };
-			reaction crash{ "崩溃事件", "Blocked Crash from %s", "%s tried to crash me!" };
-			reaction end_session_kick{ "战局结束踢", "Blocked End Session Kick from %s", "%s tried to kick me out!" };
-			reaction fake_deposit{ "假存款", "Blocked Fake Deposit from %s", "%s tried to show me a fake money notification!" };
-			reaction force_mission{ "强制任务", "Blocked Force Mission from %s", "%s tried to force me into a mission!" };
-			reaction force_teleport{ "强制传送", "Blocked Force Teleport from %s", "%s tried to teleport me!" };
-			reaction gta_banner{ "GTA横幅", "Blocked GTA Banner from %s", "Blocked GTA Banner from %s" }; // please don't enable this
-			reaction kick_from_interior{ "踢出室内", "Blocked Kick From Interior from %s", "%s tried to kick me from my interior!" };
-			reaction mc_teleport{ "摩托帮传送", "Blocked MC Teleport from %s", "%s tried to teleport me!" };
-			reaction network_bail{ "网络保释踢出", "Blocked Network Bail from %s", "%s tried to kick me out!" };
-			reaction personal_vehicle_destroyed{ "虚假的共荣保险载具损毁通知", "Blocked Personal Vehicle Destroyed from %s", "%s tried to show me a fake insurance notification!" };
-			reaction remote_off_radar{ "远程人间蒸发", "Blocked Remote Off Radar from %s", "%s tried to give me off radar!" };
-			reaction rotate_cam{ "摇晃视角", "Blocked Rotate Cam from %s", "%s tried to mess with my camera!" };
-			reaction send_to_cutscene{ "发送到过场动画", "Blocked Send To Cutscene from %s", "%s tried to force me into a cutscene!" };
-			reaction send_to_location{ "发送到地点", "Blocked Send To Location from %s", "%s tried to send me to Cayo Perico!" };
-			reaction sound_spam{ "声音骚扰", "Blocked Sound Spam from %s", "%s tried to spam annoying sounds at me!" };
-			reaction spectate_notification{ "观战", "Blocked Spectate from %s", "Blocked Spectate from %s" };
-			reaction give_collectible{ "给与收藏品", "Blocked Give Collectible from %s", "%s tried to give me a collectible!" };
-			reaction transaction_error{ "交易错误", "Blocked Transaction Error from %s", "%s tried to show me a transaction error!" };
-			reaction tse_freeze{ "TSE冻结", "Blocked TSE Freeze from %s", "%s tried to softlock my game!" };
-			reaction tse_sender_mismatch{ "TSE发送者不匹配", "Blocked TSE Sender Mismatch from %s", "Blocked TSE Sender Mismatch from %s" };
-			reaction vehicle_kick{ "踢出载具", "Blocked Vehicle Kick from %s", "%s tried to kick me from my vehicle!" };
-			reaction teleport_to_warehouse{ "传送到仓库", "Blocked Teleport To Warehouse from %s", "%s tried to teleport me to a warehouse!" };
-			reaction start_activity{ "开始活动", "Blocked Start Activity from %s", "Blocked Start Activity from %s" };
-			reaction start_script{ "启动脚本事件", "Blocked Start Script from %s", "Blocked Start Script from %s" };
-			reaction null_function_kick{ "无效函数踢出", "Blocked Null Function Kick from %s", "%s tried to kick me out!" };
-			reaction destroy_personal_vehicle{ "摧毁个人载具", "Blocked Destroy Personal Vehicle from %s", "%s tried to destroy my personal vehicle!" };
-			reaction trigger_business_raid{ "触发产业突袭", "Blocked Trigger Business Raid from %s", "%s tried to trigger a business raid!" };
-			reaction turn_into_beast{ "变成野兽", "Blocked Turn Into Beast from %s", "%s tried to turn me into the beast!" };
-			reaction remote_wanted_level{ "远程更改通缉等级", "Blocked Remote Wanted Level from %s", "%s tried to give me a wanted level!" };
-			interloper_reaction remote_wanted_level_others{ "远程更改其他玩家的通缉等级", "%s is attempting to give a wanted level to %s!", "%s is attempting to give a wanted level to %s!", false, false };
+			reaction bounty{ "赏金", "已阻止 %s 对您设置赏金", "%s 试图对我设置赏金!" };
+			reaction ceo_kick{ "CEO踢出", "已阻止来自 %s 的踢出CEO攻击", "%s 试图将我踢出组织或摩托帮!" };
+			reaction ceo_money{ "CEO副手薪水", "已阻止来自 %s 的CEO副手薪水", "%s 试图给我刷钱!" };
+			reaction clear_wanted_level{ "清除通缉等级", "已阻止来自 %s 的清除通缉等级事件", "%s 试图清除我的通缉等级!" };
+			reaction crash{ "崩溃事件", " %s 试图崩溃你", "%s 试图崩溃我!" };
+			reaction end_session_kick{ "战局结束踢", " %s 对您使用了战局结束踢，已阻止", "%s 试图踢出我!" };
+			reaction fake_deposit{ "假存款", "已阻止来自 %s 的假存款通知", "%s 试图让我显示假存款警告!" };
+			reaction force_mission{ "强制任务", "已阻止来自 %s 的强制任务", "%s 试图强制将我送进机动作战中心任务!" };
+			reaction force_teleport{ "强制传送", "已阻止来自 %s 的强制传送攻击", "%s 试图传送我!" };
+			reaction gta_banner{ "GTA横幅", "已阻止来自 %s 的GTA横幅", "已阻止来自 %s 的GTA横幅" }; // please don't enable this
+			reaction kick_from_interior{ "踢出室内", " %s 试图将你踢出室内，已阻止", "%s 试图将我踢出室内" };
+			reaction mc_teleport{ "摩托帮传送", "已阻止来自 %s 的摩托帮传送攻击", "%s 试图传送我!" };
+			reaction network_bail{ "网络保释踢", "%s 对您使用了网络保释踢，已阻止", "%s 试图踢出我!" };
+			reaction personal_vehicle_destroyed{ "虚假的共荣保险载具损毁通知", "已阻止来自 %s 的虚假共荣保险载具损毁通知", "%s 试图让我显示虚假的共荣保险载具损毁通知!" };
+			reaction remote_off_radar{ "远程人间蒸发", "已阻止来自 %s 的强制人间蒸发", "%s 试图强制使我人间蒸发!" };
+			reaction rotate_cam{ "摇晃视角", "已阻止来自 %s 的摇晃视角攻击", "%s 试图晃动我的视角!" };
+			reaction send_to_cutscene{ "发送到过场动画", "已阻止来自 %s 的发送到过场动画攻击", "%s 试图将我发送到发送到过场动画!" };
+			reaction send_to_location{ "发送到地点", "已阻止来自 %s 的发送到地点攻击", "%s 试图送我到佩里科岛!" };
+			reaction sound_spam{ "声音骚扰", "已阻止来自 %s 的声音骚扰", "%s 尝试声音骚扰我!" };
+			reaction spectate_notification{ "观战", "已阻止 %s 观看你", "已阻止 %s 观战" };
+			reaction give_collectible{ "给与收藏品", "已阻止来自 %s 的收藏品掉落物", "%s 试图给予我收藏品!" };
+			reaction transaction_error{ "交易错误", "已阻止来自 %s 的交易错误警告", "%s 试图对我显示交易错误警告!" };
+			reaction tse_freeze{ "TSE冻结", "已阻止来自 %s 的TSE冻结攻击", "%s 试图冻结我的游戏!" };
+			reaction tse_sender_mismatch{ "TSE发送者不匹配", "阻止了来自 %s 的TSE发送者不匹配攻击", "阻止了来自 %s 的TSE发送者不匹配攻击" };
+			reaction vehicle_kick{ "踢出载具", "阻止了来自 %s 的踢出载具攻击", "%s 试图将我踢出载具!" };
+			reaction teleport_to_warehouse{ "传送到仓库", "阻止了来自 %s 的传送到仓库攻击", "%s 试图传送我到仓库!" };
+			reaction start_activity{ "开始活动", "已阻止来自 %s 的开始活动攻击", "已阻止来自 %s 的开始活动攻击" };
+			reaction start_script{ "启动脚本事件", "已阻止来自 %s 的启动脚本事件攻击", "已阻止来自 %s 的启动脚本事件攻击" };
+			reaction null_function_kick{ "空函数踢出", " %s 对您使用了空函数踢，已阻止", "%s 试图踢出我!" };
+			reaction destroy_personal_vehicle{ "摧毁个人载具", "已阻止来自 %s 的摧毁个人载具攻击", "%s 试图摧毁我的个人载具!" };
+			reaction trigger_business_raid{ "触发产业突袭", "已阻止来自 %s 的触发产业突袭攻击", "%s 试图触发产业突袭!" };
+			reaction turn_into_beast{ "变成野兽", "已阻止来自 %s 的变成野兽攻击", "%s 试图将我变成野兽!" };
+			reaction remote_wanted_level{ "远程更改通缉等级", "已阻止来自 %s 的远程更改通缉等级攻击", "%s 试图修改我的通缉等级!" };
+			interloper_reaction remote_wanted_level_others{ "远程更改其他玩家的通缉等级", "%s 试图将你的通缉等级设置为 %s!", "%s 试图将我的通缉等级设置为 %s!", false, false };
 
-			reaction clear_ped_tasks{ "冻结人物模型", "Blocked Clear Ped Tasks from %s", "%s tried to freeze me!" };
-			reaction remote_ragdoll{ "远程摔倒", "Blocked Remote Ragdoll from %s", "%s tried to ragdoll me!" };
-			reaction kick_vote{ "投票踢", "%s is voting to kick you!", "%s is voting to kick me!" };
-			reaction report_cash_spawn{ "刷出现金", "%s is spawning cash", "%s is spawning cash" };
-			reaction modder_detection{ "作弊者检测", "%s is detected as a modder by the anticheat", "%s is detected as a modder by the anticheat" };
-			reaction request_control_event{ "请求控制", "Blocked Request Control Event from %s", "%s tried to mess with my vehicle!" };
-			reaction report{ "举报", "Blocked Report from %s", "%s tried to report me!" };
+			reaction clear_ped_tasks{ "冻结人物模型", "已阻止来自 %s 的冻结人物模型攻击", "%s 试图冻结我!" };
+			reaction remote_ragdoll{ "远程摔倒", "已阻止来自 %s 的远程摔倒攻击", "%s 试图令我摔倒!" };
+			reaction kick_vote{ "投票踢", "%s 投票踢出你!", "%s 投票踢出我!" };
+			reaction report_cash_spawn{ "刷出现金", "已阻止来自 %s 的现金掉落物", "%s 正在生成金钱掉落物" };
+			reaction modder_detection{ "作弊者检测", "%s 被反作弊系统检测为作弊者", "%s 被反作弊系统检测为作弊者" };
+			reaction request_control_event{ "请求控制", "拒绝了来自 %s 的请求控制事件", "%s 试图控制我的载具!" };
+			reaction report{ "举报", "阻止了来自 %s 的举报", "%s 试图举报我!" };
 
-			interloper_reaction breakup_others{ "分离踢其他玩家", "%s is trying to breakup kick %s!", "%s is trying to breakup kick %s!", true, true }; // blockable only when host but we have no way to specify that atm
-			reaction lost_connection_kick{ "失去连接踢", "Blocked Lost Connection Kick from %s", "%s tried to kick me out!" };
-			reaction gamer_instruction_kick{ "玩家教程踢", "Blocked Gamer Instruction Kick from %s", "%s tried to kick me out!" };
-			interloper_reaction lost_connection_kick_others{ "失去连接踢其他玩家", "%s is trying to lost connection kick %s!", "%s is trying to lost connection kick %s!", true, false };
+			interloper_reaction breakup_others{ "分离踢其他玩家", "%s 正在分离踢 %s!", "%s 尝试分离踢 %s!", true, true }; // blockable only when host but we have no way to specify that atm
+			reaction lost_connection_kick{ "失去连接踢", "已阻止来自 %s 的失去连接踢", "%s 试图踢出我!" };
+			reaction gamer_instruction_kick{ "玩家教程踢", "已阻止来自 %s 的玩家教程踢", "%s 试图踢出我!" };
+			interloper_reaction lost_connection_kick_others{ "失去连接踢其他玩家", "%s 正在失去连接踢 %s!", "%s 正在失去连接踢 %s!", true, false };
 
 			NLOHMANN_DEFINE_TYPE_INTRUSIVE(reactions, bounty, ceo_money, ceo_kick, clear_wanted_level, crash, end_session_kick, fake_deposit, force_mission, force_teleport, gta_banner, kick_from_interior, mc_teleport, network_bail, personal_vehicle_destroyed, 
 				remote_off_radar, rotate_cam, send_to_cutscene, send_to_location, sound_spam, spectate_notification, give_collectible, transaction_error, tse_freeze, tse_sender_mismatch, vehicle_kick, teleport_to_warehouse, trigger_business_raid, start_activity,
