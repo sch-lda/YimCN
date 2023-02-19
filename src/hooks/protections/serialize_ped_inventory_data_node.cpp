@@ -16,7 +16,7 @@ namespace big
 		data->SerializeDwordAlt(&node->m_num_items, 7);
 		if (node->m_num_items > 105)
 		{
-			notify::crash_blocked(g.m_syncing_player, "out of bounds inventory item count");
+			notify::crash_blocked(g.m_syncing_player, "界外库存物品计数");
 			return;
 		}
 
@@ -31,7 +31,7 @@ namespace big
 		data->SerializeBool(&node->m_ammo_all_infinite);
 		if (node->m_num_ammos > 65)
 		{
-			notify::crash_blocked(g.m_syncing_player, "out of bounds inventory ammo count");
+			notify::crash_blocked(g.m_syncing_player, "界外的库存弹药数");
 			return;
 		}
 

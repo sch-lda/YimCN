@@ -19,7 +19,7 @@ namespace big
 
 		if (should_notify)
 			g_notification_service->push_warning("脚本事件防护",
-				std::format("From: {}\nEvent Type: {}", player_name.data(), protection_type.data())
+				std::format("来自: {}\n事件类型: {}", player_name.data(), protection_type.data())
 			);
 	}
 

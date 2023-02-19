@@ -7,7 +7,7 @@ namespace big
 	{
 		if (object_type < eNetObjType::NET_OBJ_TYPE_AUTOMOBILE || object_type > eNetObjType::NET_OBJ_TYPE_TRAIN)
 		{
-			notify::crash_blocked(src, "out of bounds object type");
+			notify::crash_blocked(src, "界外对象类型");
 			return true;
 		}
 

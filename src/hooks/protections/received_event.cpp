@@ -394,7 +394,7 @@ namespace big
 				}
 			}
 			else if (type > ScriptEntityChangeType::SetVehicleExclusiveDriver || type < ScriptEntityChangeType::BlockingOfNonTemporaryEvents) {
-				notify::crash_blocked(source_player, "invalid script entity change type");
+				notify::crash_blocked(source_player, "无效的脚本实体变化类型");
 				g_pointers->m_send_event_ack(event_manager, source_player, target_player, event_index, event_handled_bitset);
 				return;
 			}
@@ -509,7 +509,7 @@ namespace big
 				{
 					// most definitely a crash
 					LOG(INFO) << std::hex << std::uppercase << "0x" << id.m_hash;
-					notify::crash_blocked(source_player, "rope");
+					notify::crash_blocked(source_player, "绳索");
 					g_pointers->m_send_event_ack(event_manager, source_player, target_player, event_index, event_handled_bitset);
 					return;
 				}
@@ -528,7 +528,7 @@ namespace big
 				}
 			}
 			else if (type > WorldStateDataType::VehiclePlayerLocking || type < WorldStateDataType::CarGen) {
-				notify::crash_blocked(source_player, "invalid world state type");
+				notify::crash_blocked(source_player, "不正确的世界状态类型");
 				g_pointers->m_send_event_ack(event_manager, source_player, target_player, event_index, event_handled_bitset);
 				return;
 			}
@@ -543,7 +543,7 @@ namespace big
 
 			if (hash == RAGE_JOAAT("WEAPON_UNARMED"))
 			{
-				notify::crash_blocked(source_player, "remove unarmed");
+				notify::crash_blocked(source_player, "解除武装");
 				g_pointers->m_send_event_ack(event_manager, source_player, target_player, event_index, event_handled_bitset);
 				return;
 			}
@@ -593,7 +593,7 @@ namespace big
 
 				if (object_type < eNetObjType::NET_OBJ_TYPE_AUTOMOBILE || object_type > eNetObjType::NET_OBJ_TYPE_TRAIN)
 				{
-					notify::crash_blocked(source_player, "out of bounds give control type");
+					notify::crash_blocked(source_player, "超出界线给予控制类型");
 					g_pointers->m_send_event_ack(event_manager, source_player, target_player, event_index, event_handled_bitset);
 					return;
 				}
@@ -609,7 +609,7 @@ namespace big
 			{
 				if (plyr->m_play_sound_rate_limit.exceeded_last_process())
 				{
-					notify::crash_blocked(source_player, "sound spam");
+					notify::crash_blocked(source_player, "声音骚扰");
 				}
 				g_pointers->m_send_event_ack(event_manager, source_player, target_player, event_index, event_handled_bitset);
 				return;

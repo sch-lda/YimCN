@@ -207,7 +207,7 @@ namespace big
 					const auto creation_node = (CDoorCreationDataNode*)(node);
 					if (is_crash_object(creation_node->m_model))
 					{
-						notify::crash_blocked(sender, "invalid door model");
+						notify::crash_blocked(sender, "无效门模型");
 						return true;
 					}
 					break;
@@ -246,7 +246,7 @@ namespace big
 					const auto creation_node = (CPedCreationDataNode*)(node);
 					if (is_crash_ped(creation_node->m_model))
 					{
-						notify::crash_blocked(sender, "invalid ped model");
+						notify::crash_blocked(sender, "无效ped模型");
 						return true;
 					}
 					else if (creation_node->m_has_prop && is_crash_object(creation_node->m_prop_model))
@@ -261,12 +261,12 @@ namespace big
 					const auto attach_node = (CPedAttachDataNode*)(node);
 					if (attach_node->m_attached && attach_node->m_attached_to == object->m_object_id)
 					{
-						notify::crash_blocked(sender, "infinite ped attachment");
+						notify::crash_blocked(sender, "无限ped附件");
 						return true;
 					}
 					else if (attach_node->m_attached && is_attachment_infinite(get_game_object(object), attach_node->m_attached_to))
 					{
-						notify::crash_blocked(sender, "recursive infinite ped attachment");
+						notify::crash_blocked(sender, "递归无限ped附件");
 						return true;
 					}
 
@@ -277,7 +277,7 @@ namespace big
 					const auto creation_node = (CObjectCreationDataNode*)(node);
 					if (is_crash_object(creation_node->m_model))
 					{
-						notify::crash_blocked(sender, "invalid object model");
+						notify::crash_blocked(sender, "无效物体模型");
 						return true;
 					}
 					break;
@@ -287,7 +287,7 @@ namespace big
 					const auto player_appearance_node = (CPlayerAppearanceDataNode*)(node);
 					if (is_crash_ped(player_appearance_node->m_model_hash))
 					{
-						notify::crash_blocked(sender, "invalid player model (appearance node)");
+						notify::crash_blocked(sender, "无效玩家模型 (外观结点)");
 						return true;
 					}
 					break;
@@ -297,7 +297,7 @@ namespace big
 					const auto player_creation_node = (CPlayerCreationDataNode*)(node);
 					if (is_crash_ped(player_creation_node->m_model))
 					{
-						notify::crash_blocked(sender, "invalid player model (creation node)");
+						notify::crash_blocked(sender, "无效玩家模型 (创建结点)");
 						return true;
 					}
 					break;
@@ -307,7 +307,7 @@ namespace big
 					const auto sector_node = (CSectorDataNode*)(node);
 					if (sector_node->m_pos_x == 712 || sector_node->m_pos_y == 712 || sector_node->m_pos_z == 712)
 					{
-						notify::crash_blocked(sender, "invalid sector position");
+						notify::crash_blocked(sender, "无效的扇区位置");
 						return true;
 					}
 					break;

@@ -19,7 +19,7 @@ namespace big
         for (size_t i = 0; i < 5 && !loaded_remote_index; i++)
         {
             if (i)
-                LOG(WARNING) << "Failed to download remote index, trying again... (" << i << ")";
+                LOG(WARNING) << "无法下载翻译文件索引, 正在重试... (" << i << ")";
             loaded_remote_index = download_index();
         }
 
@@ -27,12 +27,12 @@ namespace big
         {
             if (!loaded_remote_index)
             {
-                LOG(WARNING) << "Failed to load remote index, attempting to use fallback.";
+                LOG(WARNING) << "无法加载远程翻译文件索引, 尝试故障转移.";
                 use_fallback_remote();
             }
             else if (m_local_index.version < m_remote_index.version)
             {
-                LOG(INFO) << "Languages outdated, downloading new translations.";
+                LOG(INFO) << "中文语言文件已过期, 正在更新.";
 
                 update_language_packs();
                 m_local_index.version = m_remote_index.version;
@@ -44,11 +44,11 @@ namespace big
 
         if (!loaded_remote_index)
         {
-            LOG(WARNING) << "Failed to load remote index, unable to load translations.";
+            LOG(WARNING) << "无法加载翻译文件索引, 无法加载翻译.";
             return;
         }
 
-        LOG(INFO) << "Downloading translations...";
+        LOG(INFO) << "正在下载中文语言文件...";
 
         m_local_index.fallback_default_language = m_remote_index.default_lang;
         m_local_index.selected_language = "zh_CN";

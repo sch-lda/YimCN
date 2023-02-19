@@ -7,13 +7,13 @@ namespace big
 	{
 		if (object_type < eNetObjType::NET_OBJ_TYPE_AUTOMOBILE || object_type > eNetObjType::NET_OBJ_TYPE_TRAIN)
 		{
-			notify::crash_blocked(src, "out of bounds object type");
+			notify::crash_blocked(src, "界外对象类型");
 			return eAckCode::ACKCODE_FAIL;
 		}
 
 		if (auto net_obj = g_pointers->m_get_net_object(mgr, object_id, true); net_obj && net_obj->m_object_type != (int16_t)object_type)
 		{
-			notify::crash_blocked(src, "incorrect object type");
+			notify::crash_blocked(src, "不正确的对象类型");
 			return eAckCode::ACKCODE_FAIL;
 		}
 

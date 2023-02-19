@@ -21,7 +21,7 @@ namespace big::notify
 		if (player)
 		{
 			g_notification_service->push_error("防护", std::format("阻止了 {} 崩溃. 攻击者是 {} ", crash, player->get_name()));
-			LOG(WARNING) << "Blocked " << crash << " crash from " << player->get_name() << " (" << (player->get_net_data() ? player->get_net_data()->m_gamer_handle.m_rockstar_id : 0) << ")";
+			LOG(WARNING) << "阻止了 " << crash << " 攻击.攻击者是 " << player->get_name() << " (" << (player->get_net_data() ? player->get_net_data()->m_gamer_handle.m_rockstar_id : 0) << ")";
 		}
 		else
 		{
