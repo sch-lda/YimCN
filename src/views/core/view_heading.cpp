@@ -10,7 +10,7 @@ namespace big
 		if (ImGui::Begin("menu_heading", nullptr, window_flags | ImGuiWindowFlags_NoScrollbar))
 		{
 			ImGui::BeginGroup();
-			ImGui::Text("非官方版本20230219");
+			ImGui::Text("非官方版本20230220");
 			ImGui::Text("出现任何问题不得向YIMMENU官方反馈");
 			ImGui::PushStyleColor(ImGuiCol_Text, ImVec4(0.172f, 0.380f, 0.909f, 1.f));
 			ImGui::PopStyleColor();
