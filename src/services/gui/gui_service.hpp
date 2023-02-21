@@ -30,6 +30,7 @@ namespace big
 		TRAIN,
 		WATER,
 		BLACKHOLE,
+		MODEL_SWAPPER,
 
 		NETWORK,
 		SESSION,
@@ -88,6 +89,7 @@ namespace big
 				{ tabs::TRAIN, { "火车控制", view::train }},
 				{ tabs::WATER, { "水控制", view::water }},
 				{ tabs::BLACKHOLE, { "黑洞", view::blackhole }},
+				{ tabs::MODEL_SWAPPER, { "模型交换器", view::model_swapper }},
 		}}},
 			{tabs::NETWORK, { "网络", nullptr, {
 				{ tabs::SPOOFING, { "信息伪装", view::spoofing }},
